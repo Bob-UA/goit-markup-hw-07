@@ -897,11 +897,12 @@ screen and (max-width: 767px) and (min-resolution: 2dppx) {
     }
 
     .mobile-social-list .list{
-        justify-content: left;
+        padding-right: 25px;
+        justify-content: space-between;
     }
 
     .mobile-social-list .item:not(:last-of-type){
-        margin-right: 56px;
+        /* margin-right: 56px; */
     }
 /* ___________________________________________ */
 
