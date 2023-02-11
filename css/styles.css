@@ -471,7 +471,11 @@ margin-right: 24px;
 
 .social-list{
     margin-top: 8px;
+}
+
+.social-list .icon{
     fill: #FFFFFF;
+
 }
 
 /* General style */
@@ -890,6 +894,7 @@ screen and (max-width: 767px) and (min-resolution: 2dppx) {
     .mobile-social-list .list{
         padding-right: 25px;
         justify-content: space-between;
+        max-width: 320px;
     }
 
 /* ___________________________________________ */
